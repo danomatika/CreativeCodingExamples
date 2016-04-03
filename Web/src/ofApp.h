@@ -1,5 +1,5 @@
 //
-// Web: a small particle system visualization using a classes & vector. Press
+// Web: a small particle system visualization using a class & vector. Press
 // the mouse and/or the spacebar to change the drawing modes.
 //
 // References:

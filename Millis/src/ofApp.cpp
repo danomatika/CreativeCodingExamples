@@ -29,7 +29,7 @@ void ofApp::setup(){
 void ofApp::update(){
 	
 	// ofGetElapseTimeMillis() returns the number of milliseconds
-	// that have ocurred since the program was started. It is always
+	// that have occurred since the program was started. It is always
 	// increasing, so if we subtract the current red circle timestamp
 	// from the current millis, we can see if the last time we did something was
 	// greater or less than 1/2 a second ago (500 ms = 0.5s).
