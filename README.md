@@ -41,7 +41,7 @@
 **SinCos**: movement animation using the sine & cosine functions
 
 <p align="center">
-<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Typewrite.png"/>
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Typewriter.png"/>
 </p>
 
 **Typewriter**: type into a string buffer using std::set to keep track of the keys being held down
