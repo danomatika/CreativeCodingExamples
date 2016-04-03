@@ -9,6 +9,7 @@ void ofApp::setup(){
 
 	ofSetVerticalSync(true);
 	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Gravity");
 	ofSetCircleResolution(50);
 	
 	// start in the center with random velocity and acceleration

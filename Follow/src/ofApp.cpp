@@ -9,6 +9,7 @@ void ofApp::setup(){
 	
 	ofSetVerticalSync(true);
 	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Follow");
 	ofSetCircleResolution(50);
 	
 	posX = ofGetWidth()/2;

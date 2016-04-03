@@ -9,8 +9,10 @@ void ofApp::setup(){
 
 	ofSetVerticalSync(true);
 	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Noise");
 	ofSetCircleResolution(50);
 
+	// background grid circle size
 	blueSize = 20;
 
 	// start in the middle of the window

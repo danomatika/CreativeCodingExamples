@@ -9,6 +9,7 @@ void ofApp::setup(){
 
 	ofSetVerticalSync(true);
 	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Web");
 	ofSetCircleResolution(50);
 
 	// make some circles
@@ -83,14 +84,15 @@ void ofApp::draw(){
 			// calc the positive difference between the circles sizes
 			float sizeDiff = abs(circle.size - prevCircle.size);
 			
-			// choose darker lines for a larger difference
+			// choose darker lines for a larger difference,
+			// the max difference is max size - min size so : 40-10 = 30
 			if(coloredLines) {
 				ofColor interpolatedColor = ofColor(circle.color);
-				interpolatedColor.setBrightness(ofMap(sizeDiff, 0, 40, 255, 55));
+				interpolatedColor.setBrightness(ofMap(sizeDiff, 0, 30, 255, 55));
 				ofSetColor(interpolatedColor);
 			}
 			else { // grayscale
-				ofSetColor(ofMap(sizeDiff, 0, 40, 255, 55));
+				ofSetColor(ofMap(sizeDiff, 0, 30, 255, 55));
 			}
 			
 			// draw line
@@ -135,14 +137,14 @@ void ofApp::mouseReleased(int x, int y, int button){
 // constructor, no return type like Java
 Circle::Circle() {
 
-	size = (ofRandom(10, 50));
+	size = (ofRandom(10, 40));
 	
 	x = ofRandom(size, ofGetWidth()-size);
 	y = ofRandom(size, ofGetHeight()-size);
 	
 	// choose a random velocity based on the size of the circle,
 	// larger circles are slower and smaller circles are faster
-	float speed = ofMap(size, 10, 50, 10, 5);
+	float speed = ofMap(size, 10, 40, 6, 1);
 	velX = ofRandom(-speed, speed);
 	velY = ofRandom(-speed, speed);
 	

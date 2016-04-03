@@ -14,7 +14,10 @@ void ofApp::setup(){
 	ofSetCircleResolution(50);
 	
 	// set background color
-	ofBackground(ofColor::lightGray);
+	ofBackground(ofColor::darkGray);
+	
+	// window title
+	ofSetWindowTitle("Bounce");
 
 	// init starting pos
 	posX = ofGetWidth()/2;
@@ -48,7 +51,7 @@ void ofApp::update(){
 void ofApp::draw(){
 	
 	// draw circle or rectangle
-	ofSetColor(200, 100, 100);
+	ofSetColor(220, 120, 120);
 	if(isCircle) {
 		ofDrawCircle(posX, posY, size);
 	}

@@ -8,7 +8,8 @@
 void ofApp::setup(){
 
 	ofSetVerticalSync(true);
-	ofBackground(ofColor::lightGray);
+	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Typewriter");
 
 	// load the default system sans-serif font at 20 points
 	font.load(OF_TTF_SANS, 20);

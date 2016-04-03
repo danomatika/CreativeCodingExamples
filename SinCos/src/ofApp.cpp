@@ -9,6 +9,7 @@ void ofApp::setup(){
 
 	ofSetVerticalSync(true);
 	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("SinCos");
 	ofSetCircleResolution(50);
 
 	// start in the middle

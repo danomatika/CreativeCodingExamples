@@ -8,7 +8,8 @@
 void ofApp::setup(){
 
 	ofSetVerticalSync(true);
-	ofBackground(ofColor::lightGray);
+	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Easing");
 	ofSetCircleResolution(50);
 
 	targetX = ofGetWidth()-20;
@@ -42,17 +43,17 @@ void ofApp::update(){
 void ofApp::draw(){
 
 	// red circle
-	ofSetColor(200, 100, 100);
+	ofSetColor(220, 120, 120);
 	ofDrawCircle(redX, redY, 20);
 	ofDrawBitmapString(ofToString(redEasing*100)+"% easing", 10, redY);
 	
 	// green circle
-	ofSetColor(100, 200, 100);
+	ofSetColor(120, 220, 120);
 	ofDrawCircle(greenX, greenY, 20);
 	ofDrawBitmapString(ofToString(greenEasing*100)+"% easing", 10, greenY);
 	
 	// blue circle
-	ofSetColor(100, 100, 200);
+	ofSetColor(120, 120, 220);
 	ofDrawCircle(blueX, blueY, 20);
 	ofDrawBitmapString(ofToString(blueEasing*100)+"% easing", 10, blueY);
 }

@@ -9,6 +9,7 @@ void ofApp::setup(){
 
 	ofSetVerticalSync(true);
 	ofBackground(ofColor::darkGray);
+	ofSetWindowTitle("Millis");
 	ofSetCircleResolution(50);
 	
 	// red circle

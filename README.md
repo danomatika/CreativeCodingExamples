@@ -10,7 +10,7 @@
 
 **Follow**: move a circle towards a target using easing movement calculations
 
-**Gravity**: simulate gravity to bounce a circle using vector math for velocity and acceleration.
+**Gravity**: simulate gravity to bounce a circle using vector math for velocity and acceleration
 
 **Noise**: movement animation using Perlin noise
 
