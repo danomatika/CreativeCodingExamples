@@ -4,21 +4,53 @@
 
 ## Examples
 
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Bounce.png"/>
+</p>
+
 **Bounce**: bounce a circle (or rectangle) around the screen
+
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Easing.png"/>
+</p>
 
 **Easing**: move circles horizontally towards a target x position using an easing calculation
 
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Follow.png"/>
+</p>
+
 **Follow**: move a circle towards a target using easing movement calculations
+
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Gravity.png"/>
+</p>
 
 **Gravity**: simulate gravity to bounce a circle using vector math for velocity and acceleration
 
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Noise.png"/>
+</p>
+
 **Noise**: movement animation using Perlin noise
+
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/SinCos.png"/>
+</p>
 
 **SinCos**: movement animation using the sine & cosine functions
 
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Typewrite.png"/>
+</p>
+
 **Typewriter**: type into a string buffer using std::set to keep track of the keys being held down
 
-**Web**: a small particle system visualization using a classes & vector
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Web.png"/>
+</p>
+
+**Web**: a small particle system visualization using a class & vector
 
 ## Downloading
 
