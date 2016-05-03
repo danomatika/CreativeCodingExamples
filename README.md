@@ -59,6 +59,12 @@ If everything went OK, you should now be able to open the generated project and 
 **Noise**: movement animation using Perlin noise
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Particles.png"/>
+</p>
+
+**Particles**: a small particle system using a class & pointers to avoid copying
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/SinCos.png"/>
 </p>
 
