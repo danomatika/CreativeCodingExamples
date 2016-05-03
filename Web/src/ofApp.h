@@ -4,8 +4,8 @@
 //
 // References:
 //  * ofBook: OOPS!: http://openframeworks.cc/ofBook/chapters/OOPs!.html
-//  * ofBook: vector intro: http://openframeworks.cc/ofBook/chapters/stl_vector.html 
-//  * http://www.cplusplus.com/reference/vector/
+//  * ofBook: vector: http://openframeworks.cc/ofBook/chapters/stl_vector.html 
+//  * http://www.cplusplus.com/reference/vector
 //
 #pragma once
 
