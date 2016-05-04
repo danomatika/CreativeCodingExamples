@@ -7,5 +7,5 @@ openFrameworks-Info.plist
 
 # Makefiles
 Makefile
-*.make
+config.make
 
