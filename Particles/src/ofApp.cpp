@@ -9,6 +9,7 @@ void ofApp::setup(){
 
     ofSetFrameRate(30);
     ofBackground(100);
+	ofSetWindowTitle("Particles");
     ofSetCircleResolution(50);
     
     // Create our circleS.

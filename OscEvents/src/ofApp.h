@@ -1,3 +1,10 @@
+//
+// OscEvents: Send & receive mouse & keyboard events over
+// OSC (Open Sound Control. Requires the ofxOsc addon.
+//
+// 2016 Dan Wilcox
+// EDP Creative Coding @ the University of Denver
+//
 #pragma once
 
 #include "ofMain.h"
@@ -17,12 +24,14 @@ class ofApp : public ofBaseApp{
 		void mouseDragged(int x, int y, int button);
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
 	
 		ofxOscReceiver receiver;
 		ofxOscSender sender;
+	
+		ofTrueTypeFont font;
+	
+		// received data from OSC
+		ofPoint mousePos;
+		bool buttonDown;
+		int key;
 };

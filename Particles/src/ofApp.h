@@ -4,6 +4,9 @@
 // Circles are removed once they have reached the max number of bounces off
 // the window edges.
 //
+// 2016 Dan Wilcox
+// EDP Creative Coding @ the University of Denver
+//
 // References:
 //  * Stanford CS Pointer Basics: http://cslibrary.stanford.edu/106
 //  * ofBook: OOPS!: http://openframeworks.cc/ofBook/chapters/OOPs!.html

@@ -59,6 +59,12 @@ If everything went OK, you should now be able to open the generated project and 
 **Noise**: movement animation using Perlin noise
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/OscEvents.png"/>
+</p>
+
+**OscEvents**: send & receive mouse & keyboard events over OSC (Open Sound Control
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Particles.png"/>
 </p>
 
