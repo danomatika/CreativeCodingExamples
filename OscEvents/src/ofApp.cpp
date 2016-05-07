@@ -22,12 +22,12 @@ void ofApp::setup(){
 	receiver.setup(9001);
 	
 	// send OSC messages to localhost (aka the same computer) on port 9001
-	//sender.setup("localhost", 9001);
+	sender.setup("localhost", 9001);
 	
 	// send OSC messages to another computer on port 9001
 	// replace the IP address below wirth the IP address to the computer
 	// you want to send to
-	sender.setup("192.168.0.100", 9001);
+	//sender.setup("192.168.0.1", 9001);
 }
 
 //--------------------------------------------------------------
