@@ -35,6 +35,12 @@ If everything went OK, you should now be able to open the generated project and 
 **Bounce**: bounce a circle (or rectangle) around the screen
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Draw.png"/>
+</p>
+
+**Draw**: simple drawing program using the mouse and keyboard
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Easing.png"/>
 </p>
 
