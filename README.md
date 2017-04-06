@@ -29,6 +29,12 @@ If everything went OK, you should now be able to open the generated project and 
 ## Examples
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/AttractRepel.png"/>
+</p>
+
+**AttractRepel**: movers are either attracted to or repelled by the mouse
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Bounce.png"/>
 </p>
 
