@@ -59,6 +59,12 @@ If everything went OK, you should now be able to open the generated project and 
 **Follow**: move a circle towards a target using easing movement calculations
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/GameState.png"/>
+</p>
+
+**GameState**: game state control using classes and a current state pointer
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Gravity.png"/>
 </p>
 
