@@ -8,6 +8,7 @@
 void ofApp::setup(){
 	ofSetVerticalSync(true);
 	ofSetFrameRate(60);
+	ofSetWindowTitle("DrawOSC");
 	ofBackground(255);
 	ofSetBackgroundAuto(false);
 	
@@ -122,29 +123,4 @@ void ofApp::mouseReleased(int x, int y, int button){
 	m.addIntArg(button);
 	m.addBoolArg(false); // not pressed
 	sender.sendMessage(m);
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseEntered(int x, int y){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseExited(int x, int y){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::windowResized(int w, int h){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::gotMessage(ofMessage msg){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
-
 }

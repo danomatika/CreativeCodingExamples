@@ -56,7 +56,7 @@ If everything went OK, you should now be able to open the generated project and 
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/DrawOSC.png"/>
 </p>
 
-**DrawOSC**: sraw on each other's screen using OSC (Open Sound Control
+**DrawOSC**: draw on each other's screen using OSC (Open Sound Control
 
 <p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Easing.png"/>
