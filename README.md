@@ -41,10 +41,22 @@ If everything went OK, you should now be able to open the generated project and 
 **Bounce**: bounce a circle (or rectangle) around the screen
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Brightest.png"/>
+</p>
+
+**Brightest**: search for brightest pixel in camera frames
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Draw.png"/>
 </p>
 
 **Draw**: simple drawing program using the mouse and keyboard
+
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/DrawOSC.png"/>
+</p>
+
+**DrawOSC**: sraw on each other's screen using OSC (Open Sound Control
 
 <p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Easing.png"/>
@@ -57,6 +69,12 @@ If everything went OK, you should now be able to open the generated project and 
 </p>
 
 **Follow**: move a circle towards a target using easing movement calculations
+
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/GameState.png"/>
+</p>
+
+**GameState**: game state control using classes and a current state pointer
 
 <p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Gravity.png"/>
@@ -74,13 +92,19 @@ If everything went OK, you should now be able to open the generated project and 
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/OscEvents.png"/>
 </p>
 
-**OscEvents**: send & receive mouse & keyboard events over OSC (Open Sound Control
+**OscEvents**: send & receive mouse & keyboard events over OSC (Open Sound Control)
 
 <p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Particles.png"/>
 </p>
 
 **Particles**: a small particle system using a class & pointers to avoid copying
+
+<p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Pixels.png"/>
+</p>
+
+**Pixels**: draw an image manually using it's pixel data
 
 <p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/SinCos.png"/>
