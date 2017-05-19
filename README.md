@@ -35,6 +35,12 @@ If everything went OK, you should now be able to open the generated project and 
 **AttractRepel**: movers are either attracted to or repelled by the mouse
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Blobs.png"/>
+</p>
+
+**Blobs**: blob tracking using OpenCV with persistent ids between frames
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Bounce.png"/>
 </p>
 
