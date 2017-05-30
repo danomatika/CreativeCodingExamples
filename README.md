@@ -29,6 +29,12 @@ If everything went OK, you should now be able to open the generated project and 
 ## Examples
 
 <p align="center">
+<img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/Animate.png"/>
+</p>
+
+**Animate**: playback an animation by loading and displaying individual frames
+
+<p align="center">
 <img src="https://raw.github.com/danomatika/CreativeCodingExamples/master/_screenshots/AttractRepel.png"/>
 </p>
 
